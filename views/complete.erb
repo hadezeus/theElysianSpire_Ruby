@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+	<head>
+		<title>Reservation Complete</title>
+	<head>
+	<body style = "background-color: #99CCFF; background-image: url(tower.jpg); background-repeat: no-repeat">
+	<div style = "margin-left: 750px; margin-top:80px">
+		<h1>Your reservation has been processed.</h1>
+		<br/><br/>
+			<p> You will check in as: <%= @new.get_name %> </p>
+			<p> You reserved a room of type: <%= @new.get_room %> </p>
+			<p> You will check-in at: <%= @new.get_in %> </p>
+			<p> You will check-out at: <%= @new.get_out %> </p>
+	</div>
+	</body>
+</html>
